@@ -10,7 +10,7 @@ def minimumMovement(obstacleLanes)
   end
   # Check if it's needed to change the path
   mat.each_with_index do |vec, i|
-    next if vec[lane] == 0
+    next if vec[lane].zero?
 
     if vec[lane] != 0
       moves += 1
@@ -29,13 +29,13 @@ end
 def best_path(matrix, now, lane)
   op1 = 0
   op2 = 0
-  if lane == 0
+  if lane.zero?
     chk = true
     aux_ind = 0
     while chk
       break if now + aux_ind >= matrix.size
 
-      if matrix[now + aux_ind][1] == 0
+      if matrix[now + aux_ind][1].zero?
         op1 += 1
         aux_ind += 1
       else
@@ -47,7 +47,7 @@ def best_path(matrix, now, lane)
     while chk
       break if now + aux_ind >= matrix.size
 
-      if matrix[now + aux_ind][2] == 0
+      if matrix[now + aux_ind][2].zero?
         op2 += 1
         aux_ind += 1
       else
@@ -61,7 +61,7 @@ def best_path(matrix, now, lane)
     while chk
       break if now + aux_ind >= matrix.size
 
-      if matrix[now + aux_ind][0] == 0
+      if matrix[now + aux_ind][0].zero?
         op1 += 1
         aux_ind += 1
       else
@@ -73,7 +73,7 @@ def best_path(matrix, now, lane)
     while chk
       break if now + aux_ind >= matrix.size
 
-      if matrix[now + aux_ind][2] == 0
+      if matrix[now + aux_ind][2].zero?
         op2 += 1
         aux_ind += 1
       else
@@ -87,7 +87,7 @@ def best_path(matrix, now, lane)
     while chk
       break if now + aux_ind >= matrix.size
 
-      if matrix[now + aux_ind][0] == 0
+      if matrix[now + aux_ind][0].zero?
         op1 += 1
         aux_ind += 1
       else
@@ -99,7 +99,7 @@ def best_path(matrix, now, lane)
     while chk
       break if now + aux_ind >= matrix.size
 
-      if matrix[now + aux_ind][1] == 0
+      if matrix[now + aux_ind][1].zero?
         op2 += 1
         aux_ind += 1
       else

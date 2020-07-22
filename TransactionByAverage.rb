@@ -38,10 +38,10 @@ def getUserTransaction(uid, txnType, monthYear)
   all_records.each { |r| puts r }
   total_average = (total_average / all_records.size).floor(2)
   debit_average = (debit_average / deb_records.size).floor(2)
-  debit_average = 0 if deb_records.size == 0
+  debit_average = 0 if deb_records.empty?
   p "Total = #{debit_average}"
   p "debit_average = #{debit_average}"
-  if debit_average == 0
+  if debit_average.zero?
     [-1]
   else
     all_records.each { |v| result << v['id'] if to_money(v['amount']) > debit_average }
