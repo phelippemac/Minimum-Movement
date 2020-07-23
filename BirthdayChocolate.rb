@@ -1,4 +1,4 @@
-#Challange link = https://www.hackerrank.com/challenges/the-birthday-bar/problem
+# Challange link = https://www.hackerrank.com/challenges/the-birthday-bar/problem
 
 require 'json'
 require 'stringio'
@@ -9,8 +9,9 @@ def birthday(s, d, m)
   s.each_index do |i|
     val = 0
     m.times do |part|
-      next if s[i+part].nil?
-      val += s[i+part]
+      next if s[i + part].nil?
+      
+      val += s[i + part]
     end
     slices << val
   end
