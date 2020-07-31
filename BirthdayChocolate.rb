@@ -10,7 +10,7 @@ def birthday(s, d, m)
     val = 0
     m.times do |part|
       next if s[i + part].nil?
-      
+
       val += s[i + part]
     end
     slices << val
