@@ -10,11 +10,8 @@ def kangaroo(x1, v1, x2, v2)
 
   jump1 = Array.new(0)
   jump2 = Array.new(0)
-  (x2 - x1).times do |time|
-    jump1 << [x1 + v1, time]
-    x1 += v1
-    jump2 << [x2 + v2, time]
-    x2 += v2
+  (x2 - x1).times do
+    retunr 'YES' if x1 + v1 == x2 + v2
   end
   p jump1 & jump2
   p(jump1 & jump2).empty? ? 'NO' : 'YES'

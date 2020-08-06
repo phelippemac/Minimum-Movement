@@ -1,5 +1,5 @@
 # Challange Link = https://www.hackerrank.com/challenges/migratory-birds/problem
-#!/bin/ruby
+# !/bin/ruby
 
 require 'json'
 require 'stringio'
@@ -12,7 +12,7 @@ def migratoryBirds(arr)
   end
   max = birds.max_by { |_key, value| value }.last
   birds.sort_by { |key, _value| key }
-         .select { |_key, value| value == max }
-         .first
-         .first
+       .select { |_key, value| value == max }
+       .first
+       .first
 end
