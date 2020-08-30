@@ -14,6 +14,8 @@ São scripts escritos em Ruby que passam em testes que o site [hackerRank](https
  
 - 🎂 [birthdayCakeCandles.rb](https://www.hackerrank.com/challenges/birthday-cake-candles/problem) - Dada uma array a qual seus valores representam velas, o código deve calcular, quantas velas tem o maior valor.
 
+- 🐱 [catAndMouse.rb](https://www.hackerrank.com/challenges/cats-and-a-mouse/problem) - Com a posição dp Gato A, Gato B e Rato C, retorna qual gato pega o rato primeiro, ou se o rato escapa pela briga dos gatos que acontece quando chegam juntos.
+
 - 🍎 [countApplesAndOranges.rb](https://www.hackerrank.com/challenges/apple-and-orange/problem) - O código retorna quantas frutas dentre laranjas e maçãs caem de suas respectivas árvores num terreno delimitado, tendo como argumento as posiçoes das árvores, o quão longe os frutos caem do pé, e o inicio e fim do terreno, sendo que o terreno fica entre ambas as árvores, num plano horizontal.
 
 - ⛰ [countingValleys.rb](https://www.hackerrank.com/challenges/counting-valleys/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup) - Dada uma sequência de "U" e "D", cria-se um terreno horizontal, e deve retornar quandos vales o terreno possui.
