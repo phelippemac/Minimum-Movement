@@ -24,13 +24,15 @@ São scripts escritos em Ruby que passam em testes que o site [hackerRank](https
 
 - 💰 getMoneySpent - Deve retornar o máximo que uma pessoas pode gastar, gastando o máximo para comprar um pen-drive e um teclado. - (não passou em 100%)
 
-- 🖥 [gradingStudents.rb](https://www.hackerrank.com/challenges/grading/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=24-hour-campaign) - 
+- 🖥 [gradingStudents.rb](https://www.hackerrank.com/challenges/grading/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=24-hour-campaign) - ###
 
 - 🦘[kangaroo](https://www.hackerrank.com/challenges/kangaroo/problem) - ###
 
-- 🐦 [migratoryBirds](https://www.hackerrank.com/challenges/migratory-birds/problem) - ###
+- 🐦[migratoryBirds](https://www.hackerrank.com/challenges/migratory-birds/problem) - ###
 
 - 📰 [page_count.rb](https://www.hackerrank.com/challenges/drawing-book/problem) - Dado um livro com um número de páginas, deve-se retonar o menor número de folhas que devem ser viradas até encontrada a página que vem como argumento, o foleamento do livro pode começar do fim, ou do comoeço do livro.
+
+- Ⓜ️ [rot13.rb](https://www.hackerrank.com/challenges/ruby-enumerable-collect/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=24-hour-campaign&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen)
 
 - 🕗 [timeConversion.rb](https://www.hackerrank.com/challenges/time-conversion/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=24-hour-campaign) - Converte horas no formato AM e PM para o formato 24 horas.
 
